@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing:border-box ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eba5d9;
+}
+.login{
+    position: relative;
+    width: 380px;
+    padding: 80px 50px 50px;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1),-15px -15px 20px #fffb;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.login form{
+    position: relative;
+    width: 100%;
+}
+.login form h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+    line-height: 0.9em;
+}
+img{
+    width:150px;
+    height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h4{
+    color: black;
+}
+::placeholder{
+    color:lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
